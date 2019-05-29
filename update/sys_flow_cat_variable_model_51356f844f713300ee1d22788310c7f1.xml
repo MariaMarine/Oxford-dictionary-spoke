@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_flow_cat_variable_model">
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>99356f844f713300ee1d22788310c7f0</id>
+        <name>Oxford API Test Flow</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-29 07:18:36</sys_created_on>
+        <sys_id>51356f844f713300ee1d22788310c7f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Oxford API Test Flow</sys_name>
+        <sys_package display_value="Oxford Dictionary Spoke" source="x_343230_punkapi_s">cb6d27f34fa13300ee1d22788310c720</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oxford Dictionary Spoke">cb6d27f34fa13300ee1d22788310c720</sys_scope>
+        <sys_update_name>sys_flow_cat_variable_model_51356f844f713300ee1d22788310c7f1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-29 07:18:36</sys_updated_on>
+    </sys_flow_cat_variable_model>
+</record_update>

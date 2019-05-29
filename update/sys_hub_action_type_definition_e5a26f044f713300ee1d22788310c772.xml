@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <copied_from>077ea37b4fa13300ee1d22788310c71f</copied_from>
+        <copied_from_name>Get Word Info</copied_from_name>
+        <description>IntegrationHub task using
+https://developer.oxforddictionaries.com/documentation#/</description>
+        <internal_name>copy_of_get_word_info</internal_name>
+        <label_cache>[{"name":"{{action.word}}","label":"action➛word","type":"action","ref":""},{"name":"{{step[8b0519ce-f3b9-467a-8a9a-d6ed2e0d7ad0].response_body}}","label":"step➛Get Word INFO json➛Response Body","type":"step","ref":""},{"name":"{{step[8b0519ce-f3b9-467a-8a9a-d6ed2e0d7ad0].status_code}}","label":"step➛Get Word INFO json➛Status Code","type":"step","ref":""},{"name":"{{step[3507ccb3-32f3-4bb4-b800-77ba14a24103].d}}","label":"step➛Process Response➛d","type":"step","ref":""},{"name":"{{step[3507ccb3-32f3-4bb4-b800-77ba14a24103].de}}","label":"step➛Process Response➛de","type":"step","ref":""},{"name":"{{step[3507ccb3-32f3-4bb4-b800-77ba14a24103].def}}","label":"step➛Process Response➛def","type":"step","ref":""},{"name":"{{step[3507ccb3-32f3-4bb4-b800-77ba14a24103].defi}}","label":"step➛Process Response➛defi","type":"step","ref":""},{"name":"{{step[3507ccb3-32f3-4bb4-b800-77ba14a24103].defin}}","label":"step➛Process Response➛defin","type":"step","ref":""},{"name":"{{step[3507ccb3-32f3-4bb4-b800-77ba14a24103].defini}}","label":"step➛Process Response➛defini","type":"step","ref":""},{"name":"{{step[3507ccb3-32f3-4bb4-b800-77ba14a24103].definit}}","label":"step➛Process Response➛definit","type":"step","ref":""},{"name":"{{step[3507ccb3-32f3-4bb4-b800-77ba14a24103].definiti}}","label":"step➛Process Response➛definiti","type":"step","ref":""},{"name":"{{step[3507ccb3-32f3-4bb4-b800-77ba14a24103].definitio}}","label":"step➛Process Response➛definitio","type":"step","ref":""},{"name":"{{step[3507ccb3-32f3-4bb4-b800-77ba14a24103].definition}}","label":"step➛Process Response➛definition","type":"step","ref":""},{"name":"{{step[3507ccb3-32f3-4bb4-b800-77ba14a24103].e}}","label":"step➛Process Response➛e","type":"step","ref":""},{"name":"{{step[3507ccb3-32f3-4bb4-b800-77ba14a24103].et}}","label":"step➛Process Response➛et","type":"step","ref":""},{"name":"{{step[3507ccb3-32f3-4bb4-b800-77ba14a24103].ety}}","label":"step➛Process Response➛ety","type":"step","ref":""},{"name":"{{step[3507ccb3-32f3-4bb4-b800-77ba14a24103].etym}}","label":"step➛Process Response➛etym","type":"step","ref":""},{"name":"{{step[3507ccb3-32f3-4bb4-b800-77ba14a24103].etymo}}","label":"step➛Process Response➛etymo","type":"step","ref":""},{"name":"{{step[3507ccb3-32f3-4bb4-b800-77ba14a24103].etymol}}","label":"step➛Process Response➛etymol","type":"step","ref":""},{"name":"{{step[3507ccb3-32f3-4bb4-b800-77ba14a24103].etymolo}}","label":"step➛Process Response➛etymolo","type":"step","ref":""},{"name":"{{step[3507ccb3-32f3-4bb4-b800-77ba14a24103].etymolog}}","label":"step➛Process Response➛etymolog","type":"step","ref":""},{"name":"{{step[3507ccb3-32f3-4bb4-b800-77ba14a24103].etymology}}","label":"step➛Process Response➛etymology","type":"step","ref":""}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Copy of Get Word Info</name>
+        <outputs/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-29 07:07:25</sys_created_on>
+        <sys_id>e5a26f044f713300ee1d22788310c772</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Copy of Get Word Info</sys_name>
+        <sys_package display_value="Oxford Dictionary Spoke" source="x_343230_punkapi_s">cb6d27f34fa13300ee1d22788310c720</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oxford Dictionary Spoke">cb6d27f34fa13300ee1d22788310c720</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_e5a26f044f713300ee1d22788310c772</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-29 07:07:28</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=e5a26f044f713300ee1d22788310c772"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e5a26f044f713300ee1d22788310c772"/>
+    <sys_element_mapping action="delete_multiple" query="id=e5a26f044f713300ee1d22788310c772"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>definition</field>
+        <id>e5a26f044f713300ee1d22788310c772</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-29 07:07:28</sys_created_on>
+        <sys_id>caa2af044f713300ee1d22788310c72a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-29 07:07:28</sys_updated_on>
+        <table>var__m_sys_hub_action_output_e5a26f044f713300ee1d22788310c772</table>
+        <value>{{step[3507ccb3-32f3-4bb4-b800-77ba14a24103].definition}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>etymology</field>
+        <id>e5a26f044f713300ee1d22788310c772</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-29 07:07:28</sys_created_on>
+        <sys_id>0aa2af044f713300ee1d22788310c72a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-29 07:07:28</sys_updated_on>
+        <table>var__m_sys_hub_action_output_e5a26f044f713300ee1d22788310c772</table>
+        <value>{{step[3507ccb3-32f3-4bb4-b800-77ba14a24103].etymology}}</value>
+    </sys_element_mapping>
+</record_update>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>false</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>get_beers_flow</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Oxford API Test Flow</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>true</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-28 13:25:06</sys_created_on>
+        <sys_id>948fe73b4fa13300ee1d22788310c7a8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Oxford API Test Flow</sys_name>
+        <sys_package display_value="Oxford Dictionary Spoke" source="x_343230_punkapi_s">cb6d27f34fa13300ee1d22788310c720</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oxford Dictionary Spoke">cb6d27f34fa13300ee1d22788310c720</sys_scope>
+        <sys_update_name>sys_hub_flow_948fe73b4fa13300ee1d22788310c7a8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-29 06:40:55</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_variable_value action="delete_multiple" query="document_key=948fe73b4fa13300ee1d22788310c7a8"/>
+</record_update>

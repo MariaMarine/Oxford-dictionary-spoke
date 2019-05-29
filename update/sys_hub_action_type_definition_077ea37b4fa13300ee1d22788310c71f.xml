@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>IntegrationHub task using
+https://developer.oxforddictionaries.com/documentation#/</description>
+        <internal_name>get_beer_info</internal_name>
+        <label_cache>[{"name":"{{action.word}}","label":"action➛word","type":"action","ref":""},{"name":"{{step[8b0519ce-f3b9-467a-8a9a-d6ed2e0d7ad0].response_body}}","label":"step➛Get Word INFO json➛Response Body","type":"step","ref":""},{"name":"{{step[8b0519ce-f3b9-467a-8a9a-d6ed2e0d7ad0].status_code}}","label":"step➛Get Word INFO json➛Status Code","type":"step","ref":""},{"name":"{{step[3507ccb3-32f3-4bb4-b800-77ba14a24103].d}}","label":"step➛Process Response➛d","type":"step","ref":""},{"name":"{{step[3507ccb3-32f3-4bb4-b800-77ba14a24103].de}}","label":"step➛Process Response➛de","type":"step","ref":""},{"name":"{{step[3507ccb3-32f3-4bb4-b800-77ba14a24103].def}}","label":"step➛Process Response➛def","type":"step","ref":""},{"name":"{{step[3507ccb3-32f3-4bb4-b800-77ba14a24103].defi}}","label":"step➛Process Response➛defi","type":"step","ref":""},{"name":"{{step[3507ccb3-32f3-4bb4-b800-77ba14a24103].defin}}","label":"step➛Process Response➛defin","type":"step","ref":""},{"name":"{{step[3507ccb3-32f3-4bb4-b800-77ba14a24103].defini}}","label":"step➛Process Response➛defini","type":"step","ref":""},{"name":"{{step[3507ccb3-32f3-4bb4-b800-77ba14a24103].definit}}","label":"step➛Process Response➛definit","type":"step","ref":""},{"name":"{{step[3507ccb3-32f3-4bb4-b800-77ba14a24103].definiti}}","label":"step➛Process Response➛definiti","type":"step","ref":""},{"name":"{{step[3507ccb3-32f3-4bb4-b800-77ba14a24103].definitio}}","label":"step➛Process Response➛definitio","type":"step","ref":""},{"name":"{{step[3507ccb3-32f3-4bb4-b800-77ba14a24103].definition}}","label":"step➛Process Response➛definition","type":"step","ref":""},{"name":"{{step[3507ccb3-32f3-4bb4-b800-77ba14a24103].e}}","label":"step➛Process Response➛e","type":"step","ref":""},{"name":"{{step[3507ccb3-32f3-4bb4-b800-77ba14a24103].et}}","label":"step➛Process Response➛et","type":"step","ref":""},{"name":"{{step[3507ccb3-32f3-4bb4-b800-77ba14a24103].ety}}","label":"step➛Process Response➛ety","type":"step","ref":""},{"name":"{{step[3507ccb3-32f3-4bb4-b800-77ba14a24103].etym}}","label":"step➛Process Response➛etym","type":"step","ref":""},{"name":"{{step[3507ccb3-32f3-4bb4-b800-77ba14a24103].etymo}}","label":"step➛Process Response➛etymo","type":"step","ref":""},{"name":"{{step[3507ccb3-32f3-4bb4-b800-77ba14a24103].etymol}}","label":"step➛Process Response➛etymol","type":"step","ref":""},{"name":"{{step[3507ccb3-32f3-4bb4-b800-77ba14a24103].etymolo}}","label":"step➛Process Response➛etymolo","type":"step","ref":""},{"name":"{{step[3507ccb3-32f3-4bb4-b800-77ba14a24103].etymolog}}","label":"step➛Process Response➛etymolog","type":"step","ref":""},{"name":"{{step[3507ccb3-32f3-4bb4-b800-77ba14a24103].etymology}}","label":"step➛Process Response➛etymology","type":"step","ref":""},{"name":"{{step[9084e776-4f8a-46d6-9775-f58e2b79bee4].response_body}}","label":"step➛Get Lemmas Info➛Response Body","type":"step","ref":""},{"name":"{{step[9084e776-4f8a-46d6-9775-f58e2b79bee4].status_code}}","label":"step➛Get Lemmas Info➛Status Code","type":"step","ref":""},{"name":"{{step[08e9f2c4-0716-4d94-acfd-3113b978c4c5].b}}","label":"step➛Process Lemmas Response➛b","type":"step","ref":""},{"name":"{{step[08e9f2c4-0716-4d94-acfd-3113b978c4c5].ba}}","label":"step➛Process Lemmas Response➛ba","type":"step","ref":""},{"name":"{{step[08e9f2c4-0716-4d94-acfd-3113b978c4c5].bas}}","label":"step➛Process Lemmas Response➛bas","type":"step","ref":""},{"name":"{{step[08e9f2c4-0716-4d94-acfd-3113b978c4c5].base}}","label":"step➛Process Lemmas Response➛base","type":"step","ref":""},{"name":"{{step[08e9f2c4-0716-4d94-acfd-3113b978c4c5].base_}}","label":"step➛Process Lemmas Response➛base_","type":"step","ref":""},{"name":"{{step[08e9f2c4-0716-4d94-acfd-3113b978c4c5].base_f}}","label":"step➛Process Lemmas Response➛base_f","type":"step","ref":""},{"name":"{{step[08e9f2c4-0716-4d94-acfd-3113b978c4c5].base_fo}}","label":"step➛Process Lemmas Response➛base_fo","type":"step","ref":""},{"name":"{{step[08e9f2c4-0716-4d94-acfd-3113b978c4c5].base_for}}","label":"step➛Process Lemmas Response➛base_for","type":"step","ref":""},{"name":"{{step[08e9f2c4-0716-4d94-acfd-3113b978c4c5].base_form}}","label":"step➛Process Lemmas Response➛base_form","type":"step","ref":""},{"name":"{{step[7053ec61-8ff5-4eb9-9389-5fe1f3cc6cdf].frequency}}","label":"step➛Process Frequency Response➛frequency","type":"step","ref":""},{"name":"{{step[fae85836-f359-4cd8-b984-40b7a82b3477].response_body}}","label":"step➛Get Frequency Info➛Response Body","type":"step","ref":""},{"name":"{{step[fae85836-f359-4cd8-b984-40b7a82b3477].status_code}}","label":"step➛Get Frequency Info➛Status Code","type":"step","ref":""}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Get Word Info</name>
+        <outputs/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-28 13:20:40</sys_created_on>
+        <sys_id>077ea37b4fa13300ee1d22788310c71f</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>Get Word Info</sys_name>
+        <sys_package display_value="Oxford Dictionary Spoke" source="x_343230_punkapi_s">cb6d27f34fa13300ee1d22788310c720</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oxford Dictionary Spoke">cb6d27f34fa13300ee1d22788310c720</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_077ea37b4fa13300ee1d22788310c71f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-29 07:47:50</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=077ea37b4fa13300ee1d22788310c71f"/>
+    <sys_variable_value action="delete_multiple" query="document_key=077ea37b4fa13300ee1d22788310c71f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>077ea37b4fa13300ee1d22788310c71f</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-29 07:44:50</sys_created_on>
+        <sys_id>693ba3c84f713300ee1d22788310c783</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-29 07:44:50</sys_updated_on>
+        <value/>
+        <variable display_value="">a53ba3c84f713300ee1d22788310c77a</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=077ea37b4fa13300ee1d22788310c71f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_form</field>
+        <id>077ea37b4fa13300ee1d22788310c71f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-29 07:22:46</sys_created_on>
+        <sys_id>0626abc44f713300ee1d22788310c7af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-29 07:22:46</sys_updated_on>
+        <table>var__m_sys_hub_action_output_077ea37b4fa13300ee1d22788310c71f</table>
+        <value>{{step[08e9f2c4-0716-4d94-acfd-3113b978c4c5].base_form}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>definition</field>
+        <id>077ea37b4fa13300ee1d22788310c71f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-29 06:51:02</sys_created_on>
+        <sys_id>99eedf404f713300ee1d22788310c798</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-29 06:51:02</sys_updated_on>
+        <table>var__m_sys_hub_action_output_077ea37b4fa13300ee1d22788310c71f</table>
+        <value>{{step[3507ccb3-32f3-4bb4-b800-77ba14a24103].definition}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>etymology</field>
+        <id>077ea37b4fa13300ee1d22788310c71f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-29 06:51:02</sys_created_on>
+        <sys_id>d5eedf404f713300ee1d22788310c798</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-29 06:51:02</sys_updated_on>
+        <table>var__m_sys_hub_action_output_077ea37b4fa13300ee1d22788310c71f</table>
+        <value>{{step[3507ccb3-32f3-4bb4-b800-77ba14a24103].etymology}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>frequency</field>
+        <id>077ea37b4fa13300ee1d22788310c71f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-29 07:44:50</sys_created_on>
+        <sys_id>e53ba3c84f713300ee1d22788310c783</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-29 07:44:50</sys_updated_on>
+        <table>var__m_sys_hub_action_output_077ea37b4fa13300ee1d22788310c71f</table>
+        <value>{{step[7053ec61-8ff5-4eb9-9389-5fe1f3cc6cdf].frequency}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>lemmas</field>
+        <id>077ea37b4fa13300ee1d22788310c71f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-29 07:17:37</sys_created_on>
+        <sys_id>f6f4eb844f713300ee1d22788310c70d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-29 07:17:37</sys_updated_on>
+        <table>var__m_sys_hub_action_output_077ea37b4fa13300ee1d22788310c71f</table>
+        <value>{{step[08e9f2c4-0716-4d94-acfd-3113b978c4c5].base_form}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>search_word</field>
+        <id>077ea37b4fa13300ee1d22788310c71f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-29 07:21:41</sys_created_on>
+        <sys_id>d2e5e7c44f713300ee1d22788310c784</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-29 07:21:41</sys_updated_on>
+        <table>var__m_sys_hub_action_output_077ea37b4fa13300ee1d22788310c71f</table>
+        <value>{{action.word}}</value>
+    </sys_element_mapping>
+</record_update>
